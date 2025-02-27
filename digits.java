@@ -1,6 +1,7 @@
 //Gabe Sand 2/25
 //This program isolates digits
 //Digits.java
+import java.util.*;
 public class digits {
 
 
@@ -11,7 +12,10 @@ public class digits {
         int tens;
         int hundreds;
         int thousands;
-        number = 258;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a four digit number: ");
+        number = input.nextInt();
+        // number = 258;
         ones = number % 10;
         tens = (number / 10) % 10;
         hundreds = (number / 10) / 10 % 10;

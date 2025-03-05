@@ -25,6 +25,7 @@ public class GradeAverage {
         grade5 = input.nextInt();
         avg = (grade1 + grade2 + grade3 + grade4 + grade5)/5.0;
         System.out.println("Your grade average is " + avg);
+        
 
 
 
